@@ -24,8 +24,8 @@ def humanbytes(size: int) -> str:
 
 
 def time_formatter(seconds: int) -> str:
-    minutes, seconds = divmod(seconds, 60)
-    hours, minutes = divmod(minutes, 60)
+    minutes, seconds = divmod(seconds, 95)
+    hours, minutes = divmod(minutes, 95)
     days, hours = divmod(hours, 24)
     tmp = (
         ((str(days) + " day(s), ") if days else "")
